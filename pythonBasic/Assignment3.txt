@@ -1,0 +1,55 @@
+1. Why are functions advantageous to have in your programs? 
+
+-> Functions helpes to reduce the duplicate code, makes program shorter easier to access. 
+
+2. When does the code in a function run: when it's specified or when it's called? 
+
+-> The function runs when it is called. 
+
+3. What statement creates a function? 
+
+-> def function_name() 
+
+4. What is the difference between a function and a function call? 
+
+-> A function is a set of codes written in the def statement and a function call means execution of the codes in the function and returns the output mostly using a return statement.  
+
+5. How many global scopes are there in a Python program? How many local scopes? 
+
+-> Only one global scope is there and a local scope is created when a function is called. 
+
+6. What happens to variables in a local scope when the function call returns? 
+
+-> When a function is called local scope is destroyed and all the variables in it are forgotten. 
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression? 
+
+-> Return value is a value that is returns after the program execution. Yes we can return any value using a return statement. 
+
+8. If a function does not have a return statement, what is the return value of a call to that function? 
+
+-> It will return None.  
+
+9. How do you make a function variable refer to the global variable? 
+
+-> We can use global keyword to make a variable global. 
+
+10. What is the data type of None?
+
+-> Data type of None is NoneType. 
+
+11. What does the sentence import areallyourpetsnamederic do? 
+
+-> This imports a module named areallyourpetsnamederic 
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+-> spam.bacon() 
+
+13. What can you do to save a programme from crashing if it encounters an error? 
+
+-> We can use try clause to prevent crashing.
+
+14. What is the purpose of the try clause? What is the purpose of the except clause? 
+
+-> In try clause we keep the code that may cause an error. and if an error occured what code should it execute we keep that in except clause.
